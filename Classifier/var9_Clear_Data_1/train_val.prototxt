@@ -11,7 +11,7 @@ layer {
   }
   data_param {
     source: "../../DataSet_Clear_1/lmdb/train_db"
-    batch_size: 3
+    batch_size: 16
     backend: LMDB
   }
 }
@@ -28,7 +28,7 @@ layer {
   }
   data_param {
     source: "../../DataSet_Clear_1/lmdb/val_db"
-    batch_size: 3
+    batch_size: 10
     backend: LMDB
   }
 }
